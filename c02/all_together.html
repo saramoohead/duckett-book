@@ -7,12 +7,30 @@
   <body>
     <h1>Elderflower</h1>
     <div id="content">
-      <div class="message">Hello <span id="first_name"></span>, please check your order:</div>
-      Custom sign: <span id="custom_sign"></span><br>
-      Total tiles: <span id="total_tiles"></span><br>
-      Subtotal: $<span id="subtotal"></span><br>
-      Shipping: $<span id="shipping"></span><br>
-      Grand total: $<span id="grand_total"></span><br>
+      <div id="greeting" class="message">Hello!</div>
+      <table>
+        <tr>
+          <td>Custom sign: </td>
+          <td id="custom_sign"></td>
+        </tr>
+        <tr>
+          <td>Total tiles: </td>
+          <td id="total_tiles"></td>
+        </tr>
+        <tr>
+          <td>Subtotal: </td>
+          <td id="subtotal">$</td>
+        </tr>
+        <tr>
+          <td>Shipping: </td>
+          <td id="shipping">$</td>
+        </tr>
+        <tr>
+          <td>Grand total: </td>
+          <td id="grand_total">$</td>
+        </tr>
+      </table>
+      <a href="#" class="action">Pay now</a>
     </div>  
 
     <script src="js/allTogether.js"></script>
