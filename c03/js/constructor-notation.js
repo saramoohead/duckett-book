@@ -27,3 +27,20 @@ msg += '<b>last modified: </b>' + document.lastModified + '</p>';
 
 var el = document.getElementById('footer');
 el.innerHTML = msg;
+
+var decimalTest = 10.555
+var toFixedOne = decimalTest.toFixed(1);
+var toFixedZero = decimalTest.toFixed(0);
+var toPrecision = decimalTest.toPrecision(2);
+var randomNum = Math.floor((Math.random() * 100) + 1);
+
+var decimalMsg = '<p> toFixedOne: ' + toFixedOne + '<br />';
+decimalMsg += ' toFixedZero: ' + toFixedZero + '<br />';
+decimalMsg += ' toPrecision: ' + toPrecision + '</p>';
+decimalMsg += ' random: ' + randomNum + '</p>';
+
+var elDecimals = document.getElementById('decimals');
+elDecimals.innerHTML = decimalMsg;
+
+
+

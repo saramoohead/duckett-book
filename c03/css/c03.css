@@ -78,6 +78,10 @@ p + h2 {
   border-bottom: 1px solid #fff; 
   padding-bottom: 1em;}
 
+#decimals {
+  border-bottom: 1px solid #fff; 
+  padding-bottom: 1em;}
+
 #rooms {
   font-size: 440%;
   color: #ffb87a;
